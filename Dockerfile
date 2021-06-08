@@ -15,4 +15,4 @@ USER raster
 WORKDIR /opt/rasterformation/
 
 ENTRYPOINT ["python"]
-CMD ["mosaic_app.py"]
+CMD ["raster_transformation_app.py"]
