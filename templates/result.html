@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<center>
+   <body>
+      <h1 style="color: #5e9ca0;">Transformation Successful!</h1>
+   <div>
+      <a href="/home">Try again?</a>
+   </div>
+      <p></p>
+      <p> Processing took {{ time }} seconds</p>
+      <p> Name of the vector file used: {{ geojson }}</p>
+      <p> Cropping coordinates: {{ coordinates }}</p>
+      <h1 style="color: #5e9ca0;">Original Image</h1>
+      <img src="{{ original_image }}" width="500" height="500"/>
+      <h1 style="color: #5e9ca0;">Transformed Image</h1>
+      <img src="{{ transformed_image }}" width="500" height="500"/>
+   </body>
+</center>
+</html>

@@ -1,0 +1,18 @@
+<html>
+   <body>
+   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+      <form action = "/result" method = "POST">
+          <h1 style="color: #5e9ca0;">Raster Image Transformer!</h1>
+          <h2 style="color: #2e6c80;">How to use:</h2>
+
+          <p>Raster image - Name of the raster file you want to be transformed (Placed in /path_to_project/raster/ example: raster.tif)</p>
+          <p>Geojson file - Geojson file that contains the vector coordinates to crop the raster image</p>
+
+          <h2 style="color: #2e6c80;">Give it a try!!</h2>
+          <p>Raster image <input type = "file" name = "raster image" /></p>
+          <p>Geojson file <input type = "file" name = "geojson" /></p>
+          </select>
+          <p><input type = "submit" value = "Transform" name="submit_btn" onclick="$('#loading').show();"/></p>
+      </form>
+   </body>
+</html>
